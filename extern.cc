@@ -18,7 +18,7 @@ public:
 int main () {
  	string username;
 	string sname;
-	string yn;
+	 
 	int sage;
 	int sgrade;
 	StudentMS root;
@@ -43,13 +43,10 @@ int main () {
 
  	cout << "Enter student's mark for bio: ";
  	cin >> root.Smark_bio;
- 	cout << "Save Studen's card? Y/n :"; cin >> yn;
- 	if (yn == "y") {
- 		cout << "Successfully Saved. Copy.";
- 	}else {
- 		system("g++ extern.cc");
- 		system("./a.out");
- 	}
+ 	 
+	printf("Successfully Saved.);
+	system("g++ extern.cc);
+	system(./a.out);
  	
 
 
