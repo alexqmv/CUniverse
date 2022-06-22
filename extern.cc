@@ -22,6 +22,7 @@ int main () {
 	int sage;
 	int sgrade;
 	StudentMS root;
+	while (true) {
 	cout << "\t\t\t  Welcome to Student's Management System\n";
 	cout << "\nEnter username: "; cin >> username;
 	cout << "\nHi, " << username << endl;
@@ -43,10 +44,11 @@ int main () {
 
  	cout << "Enter student's mark for bio: ";
  	cin >> root.Smark_bio;
+ }
  	 
-	printf("Successfully Saved.);
-	system("g++ extern.cc);
-	system(./a.out);
+	
+	// system("g++ extern.cc");
+	// system("./a.out");
  	
 
 
